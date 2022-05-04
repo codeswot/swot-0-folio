@@ -1,0 +1,41 @@
+.intro-container {
+    display: block;
+    /* flex-direction: column; */
+  width: 50%;
+  height: 600px ;
+  background-color: #000;
+  border-radius:10px 10px 10px 10px;
+  /* backdrop-filter: blur(100px); */
+}
+.control{
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    
+}
+.intro-header{
+    display: flex;
+    padding: 0rem 1rem;
+    align-items: center;
+    height: 8%;
+    background-color: #353353;
+    border-radius:10px 10px 0px 0px;
+    /* backdrop-filter: blur(100px); */
+}
+.intro-body {
+    color: #2AFE14;
+    font-size: 0.8rem;
+    padding:  1rem ;
+    margin: 0;
+
+}
+.intro-body h2{
+    
+    font-size: 1.8rem;
+    padding:  1rem 6rem 1rem 2rem;
+
+    
+    
+
+}
