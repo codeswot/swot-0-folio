@@ -37,15 +37,12 @@
 
 }
 .interactive-section{
-    padding-top: 5rem;
-    font-size: 0.5;
+    padding-top: 8rem;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-.know-button{
-    font-size: 0.5;
-}
+
 
 @media screen and (max-width: 550px) {
     .intro-container {
@@ -62,10 +59,11 @@
         font-size: 3rem;
     }
     .interactive-section{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     .know-button{
-        
+        margin: 0;
+        font-size: 0.5rem;
         padding: 0.5rem;
     }
 }
