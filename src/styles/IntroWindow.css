@@ -3,7 +3,7 @@
     flex-direction: column;
   width: 50%;
   /* for now */
-  height: 40rem;
+  height: 75vh;
   background-color: #000;
   border-radius:10px 10px 10px 10px;
   /* backdrop-filter: blur(100px); */
@@ -59,7 +59,7 @@
         font-size: 3rem;
     }
     .interactive-section{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .know-button{
         margin: 0;
