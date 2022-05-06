@@ -16,6 +16,13 @@ export const IntroWindow = () => {
           responsibilities. Hard work, studies and constant coding I have
           acquired the awesome power of developing
         </h3>
+        <div className="interactive-section">
+          <div className="qoutes-section">
+            <h4>$: “Always believe in you ability to achieve greatness”</h4>
+            <h4>___Mubarak I.</h4>
+          </div>
+          <button className="know-button">{'> '}Know me_</button>
+        </div>
       </div>
     </div>
   );

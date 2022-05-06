@@ -4,5 +4,16 @@
   color: #E6F1FF;
 }
 .body{
-  padding: 4% 6%;
+  padding: 5rem  5rem 0rem 5rem;
+  height: 100%;
+}
+@media screen and (max-width: 550px) {
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.8rem 0rem 1.8rem;
+    /* height: 100%; */
+  }
 }

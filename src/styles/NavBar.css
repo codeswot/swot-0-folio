@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   /* height: 60px; */
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 5rem;
   background: linear-gradient(
     -90deg,
     rgba(35, 53, 84, 0.72),
@@ -96,7 +96,10 @@ button:hover {
   .hamburger {
     display: block;
   }
+.navigation{
+  padding: 0.6rem 1.8rem;
 
+}
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;

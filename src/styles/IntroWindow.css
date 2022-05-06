@@ -1,8 +1,9 @@
 .intro-container {
-    display: block;
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
   width: 50%;
-  height: 600px ;
+  /* for now */
+  height: 40rem;
   background-color: #000;
   border-radius:10px 10px 10px 10px;
   /* backdrop-filter: blur(100px); */
@@ -16,7 +17,7 @@
 }
 .intro-header{
     display: flex;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
     align-items: center;
     height: 8%;
     background-color: #353353;
@@ -25,17 +26,46 @@
 }
 .intro-body {
     color: #2AFE14;
-    font-size: 0.8rem;
-    padding:  1rem;
+    font-size: 0.7rem;
+    padding: 1rem ;
+    height: 100%;
     margin: 0;
 
 }
-.intro-body h2{
-    
-    font-size: 1.8rem;
-    padding:  1rem 6rem 1rem 2rem;
+.intro-body h2{    
+    font-size: 1.5rem;  
 
-    
-    
+}
+.interactive-section{
+    padding-top: 5rem;
+    font-size: 0.5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.know-button{
+    font-size: 0.5;
+}
 
+@media screen and (max-width: 550px) {
+    .intro-container {
+        width: 100%;
+        /* height: 90%; */
+      
+    }
+   /* decide to increase or reduce intro header */
+    .intro-body{
+        font-size: 1rem;
+        
+    }
+    .intro-body:h2{
+        font-size: 3rem;
+    }
+    .interactive-section{
+        font-size: 0.8rem;
+    }
+    .know-button{
+        
+        padding: 0.5rem;
+    }
 }
