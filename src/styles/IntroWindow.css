@@ -27,7 +27,7 @@
     color: #2AFE14;
     font-size: 0.7rem;
     padding: 1rem ;
-    height: 70vh;
+    /* height: 70vh; */
     margin: 0;
 
 }
@@ -36,7 +36,7 @@
 
 }
 .interactive-section{
-    padding-top: 8rem;
+    padding-top: 4rem;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
