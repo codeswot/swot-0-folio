@@ -3,7 +3,7 @@
     flex-direction: column;
   width: 50%;
   /* for now */
-  height: 75vh;
+  height: 40rem;
   background-color: #000;
   border-radius:10px 10px 10px 10px;
   /* backdrop-filter: blur(100px); */
