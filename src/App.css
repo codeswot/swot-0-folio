@@ -1,19 +1,36 @@
 .App {
-  /* text-align: center; */  
-  background-color: #0A192F;
-  color: #E6F1FF;
+  /* text-align: center; */
+  background-color: #0a192f;
+  color: #e6f1ff;
 }
-.body{
-  padding: 5rem  5rem 0rem 5rem;
-  height: 100%;
+.body {
+  padding: 5rem 5rem 0rem 5rem;
+  height: 100vh;
+}
+.scroll-indicator{
+  display: none;
 }
 @media screen and (max-width: 550px) {
-  .body{
+  .body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 3rem 1.8rem 0rem 1.8rem;
-    /* height: 100%; */
+    height: 100vh;
+  }
+  .intro-section{
+    display:flex;
+    flex-direction:column;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+        
+  }
+  .scroll-indicator{
+    font-size: 3rem;
+    display: block;
+    padding: 2.5rem;
+    color: #64ffdb57;
+    cursor: pointer;
   }
 }

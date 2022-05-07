@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/NavBar.css";
+import { RiMenu3Line } from "react-icons/ri";
 
 export const NavBar =() => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -17,18 +18,7 @@ export const NavBar =() => {
         }}
       >
         {/* icon from Heroicons.com */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="white"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clipRule="evenodd"
-          />
-        </svg>
+          <RiMenu3Line />
       </button>
       <div
         className={
@@ -51,9 +41,11 @@ export const NavBar =() => {
           <li>
           <a href="/home"> <span className="nav-number">04.</span>Contact</a>
           </li>
+          
+          <button className="mobile-resume-btn">Resume</button>     
         </ul>
       </div>
-      <button>Resume</button>
+      <button className="desktop-resume-btn">Resume</button>
     </nav>
   );
 }

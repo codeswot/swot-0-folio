@@ -21,7 +21,7 @@ export const IntroWindow = () => {
             <h4>$: “Always believe in you ability to achieve greatness”</h4>
             <h4>___Mubarak I.</h4>
           </div>
-          <button className="know-button">{'> '}Know me_</button>
+          <button className="know-button">{'>'}Know me_</button>
         </div>
       </div>
     </div>

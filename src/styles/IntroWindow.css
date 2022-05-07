@@ -1,68 +1,66 @@
 .intro-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  /* for now */
   background-color: #000;
-  border-radius:10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   /* backdrop-filter: blur(100px); */
 }
-.control{
-    width: 15px;
-    height: 15px;
-    margin-right: 0.5rem;
-    border-radius: 100%;
-    
+.control {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5rem;
+  border-radius: 100%;
 }
-.intro-header{
-    display: flex;
-    padding: 0rem 0.5rem;
-    align-items: center;
-    height: 2rem;
-    background-color: #353353;
-    border-radius:10px 10px 0px 0px;
-    /* backdrop-filter: blur(100px); */
+.intro-header {
+  display: flex;
+  padding: 0rem 0.5rem;
+  align-items: center;
+  height: 2rem;
+  background-color: #353353;
+  border-radius: 10px 10px 0px 0px;
+  /* backdrop-filter: blur(100px); */
 }
 .intro-body {
-    color: #2AFE14;
-    font-size: 0.7rem;
-    padding: 1rem ;
-    height: 60vh;
-    margin: 0;
-
+  color: #2afe14;
+  font-size: 0.7rem;
+  padding: 1rem;
+  height: 60vh;
+  margin: 0;
 }
-.intro-body h2{    
-    font-size: 1.5rem;  
-
+.intro-body h2 {
+  font-size: 1.5rem;
 }
-.interactive-section{
-    padding-top: 4rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+.interactive-section {
+  padding-top: 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-
 
 @media screen and (max-width: 550px) {
-    .intro-container {
-        width: 100%;
-        /* height: 90%; */
-      
-    }
-   /* decide to increase or reduce intro header */
-    .intro-body{
-        font-size: 1rem;
-        
-    }
-    .intro-body:h2{
-        font-size: 3rem;
-    }
-    .interactive-section{
-        font-size: 0.9rem;
-    }
-    .know-button{
-        margin: 0;
-        font-size: 0.5rem;
-        padding: 0.5rem;
-    }
+  .intro-container {
+    width: 100%;
+    
+  }
+  /* decide to increase or reduce intro header */
+
+  .intro-body:h2 {
+    font-size: 1.3rem;
+  }
+  .intro-body:h3 {
+    font-size: 0.6rem;
+  }
+  .interactive-section {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .know-button {
+    margin: 0;
+    font-size: 0.6rem;
+    padding: 0.6rem;
+  }
 }

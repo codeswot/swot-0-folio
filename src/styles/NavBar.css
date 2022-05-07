@@ -48,13 +48,11 @@
 
 .hamburger {
   border: 0;
-  height: 40px;
-  width: 40px;
   padding: 0.5rem;
-  border-radius: 50%;
-  background-color: #283b8b;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  color: #64ffda;
+  font-size: 2rem;
   position: absolute;
   top: 50%;
   right: 25px;
@@ -63,7 +61,7 @@
 }
 
 .hamburger:hover {
-  background-color: #2642af;
+  color: rgba(100, 255, 219, 0.63);
 }
 
 .nav-number {
@@ -86,11 +84,14 @@ button {
   transition: background-color 0.2s ease-in-out;
   padding: 8px 15px;
   margin-left: 32px;
+
 }
 button:hover {
   background-color: rgba(100, 255, 219, 0.08);
 }
-
+.mobile-resume-btn{
+  display: none;
+}
 /* start of mobile */
 @media screen and (max-width: 550px) {
   .hamburger {
@@ -101,9 +102,11 @@ button:hover {
 
 }
   .navigation-menu ul {
+    display: flex;
+    align-items: center;    
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 0;
     width: 100%;
     height: calc(100vh - 60px);
@@ -114,7 +117,8 @@ button:hover {
 
   .navigation-menu li {
     text-align: center;
-    margin: 0;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 
   .navigation-menu li a {
@@ -124,11 +128,20 @@ button:hover {
   }
 
   .navigation-menu li:hover {
-    background-color: #eee;
+    background-color: rgba(100, 255, 219, 0.117);
   }
 
   .navigation-menu.expanded ul {
+    display: flex;
+  }
+  .desktop-resume-btn{
+    display: none;
+  }
+  .mobile-resume-btn{
     display: block;
+    margin: 0;
+    font-size: 1.2rem;
+    
   }
 }
 /* end of mobile */
