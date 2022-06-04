@@ -53,7 +53,7 @@ export const NavBar =() => {
           </li>
         </ul>
       </div>
-      <button>Resume</button>
+      <button className="hidden md:block">Resume</button>
     </nav>
   );
 }

@@ -1,8 +1,7 @@
 .intro-container {
-    display: block;
     /* flex-direction: column; */
-  width: 50%;
-  height: 600px ;
+ 
+  height: 500px ;
   background-color: #000;
   border-radius:10px 10px 10px 10px;
   /* backdrop-filter: blur(100px); */
@@ -25,17 +24,18 @@
 }
 .intro-body {
     color: #2AFE14;
-    font-size: 0.8rem;
-    padding:  1rem;
-    margin: 0;
+   
 
 }
-.intro-body h2{
-    
-    font-size: 1.8rem;
-    padding:  1rem 6rem 1rem 2rem;
 
-    
-    
+.btn {
+    border: 1px solid rgba(42, 254, 20, 0.62);
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
 
+.imageButton {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
 }
